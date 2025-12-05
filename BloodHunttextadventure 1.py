@@ -1,3 +1,4 @@
+#Programmiert von David zusammen mit Andre, Edward und Abdul
 import pygame
 import time
 import sys
@@ -458,4 +459,5 @@ def stage3(held):
 if __name__ == "__main__":
     pygame.init()
     pygame.mixer.init()
+
     main_menu()
