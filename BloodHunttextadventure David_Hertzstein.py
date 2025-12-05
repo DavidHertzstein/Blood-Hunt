@@ -4,7 +4,7 @@ import time
 import sys
 import random
 import os
-from enemy import Enemies, Boss
+from enemy import Enemies, Boss #Boss Klasse erstellt von David
 from hero import Hero, Weapon, Items
 
 
@@ -461,3 +461,4 @@ if __name__ == "__main__":
     pygame.mixer.init()
 
     main_menu()
+
